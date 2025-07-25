@@ -82,6 +82,7 @@ header {
     background: linear-gradient(to right, #ffa500, #fbff01);
     border-radius: 99px;
     padding: 8px;
+    font-size: 16px;
 }
 
 section {
@@ -242,3 +243,6 @@ section {
     /* padding: 10px; */
 }
 
+.menu_section {
+    background: rgb(61, 60, 60);
+}
