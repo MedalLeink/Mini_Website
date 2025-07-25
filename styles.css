@@ -257,6 +257,9 @@ section {
 }
 
 .menu_details img {
-    width: 80%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    max-width: 300px;
 }
 
