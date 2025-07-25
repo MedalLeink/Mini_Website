@@ -169,6 +169,7 @@ section {
     align-items: center;
     justify-content: center;
     gap: 150px;
+    max-height: 690px;
 }
 
 .about_section::before {
@@ -181,7 +182,7 @@ section {
     /* transform: translateX(-50%); */
     width: 20%;
     height: 30%;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 
 .about_section .img_side img {
@@ -189,7 +190,7 @@ section {
     height: 350px;
     border-radius: 50%;
     object-fit: cover;
-    transition: all 60s linear;
+    transition: all 0.5s linear;
 }
 
 .about_section .about_us{
@@ -198,6 +199,10 @@ section {
     font-size: 16px;
     max-width: 50%;
     margin-top: -50px;
+}
+
+.about_section .about_us p{
+   margin-bottom: 30px;
 }
 
 .underlined_title {
@@ -218,3 +223,22 @@ section {
     width: 40%;
     height: 6%;
 }
+
+.socials a {
+    margin: 8px;
+    text-decoration: none;
+}
+
+.socials a i {
+    font-size: 28px;
+    color: #A95C0C;
+    transition: all 0.3s ease;
+}
+
+.socials a i:hover {
+    cursor: pointer;
+    color: #000;
+    font-size: 30px;
+    /* padding: 10px; */
+}
+
