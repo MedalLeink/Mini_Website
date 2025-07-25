@@ -246,6 +246,28 @@ section {
 
 .menu_section {
     background: rgb(61, 60, 60);
+    text-align: center;
+}
+
+.menu_section .underlined_menu {
+    color: #fff;
+    padding-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.underlined_menu::before {
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    background-color: #ffa500;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40%;
+    height: 5%;
 }
 
 .menu_details {
@@ -253,13 +275,32 @@ section {
     padding: 20px;
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
-    margin: 120px 80px;
+    margin: 60px 80px;
 }
 
 .menu_details img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
     object-fit: cover;
     max-width: 300px;
+}
+
+.menu_details_1 h4,
+.menu_details_1 p,
+.menu_details_1 img{
+    color: #fff;
+    text-align: center;
+    padding: 6px;
+}
+
+.menu_details_1 h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.menu_details_1 p {
+    font-weight: 200;
+    font-size: 14px;
 }
 
