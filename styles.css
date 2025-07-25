@@ -230,15 +230,15 @@ section {
 }
 
 .socials a i {
-    font-size: 28px;
-    color: #A95C0C;
+    font-size: 26px;
+    color: #000;
     transition: all 0.3s ease;
 }
 
 .socials a i:hover {
     cursor: pointer;
-    color: #000;
-    font-size: 30px;
+    color: #A95C0C;
+    font-size: 28px;
     /* padding: 10px; */
 }
 
