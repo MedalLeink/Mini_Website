@@ -18,14 +18,21 @@ body {
 }
 
 .container {
-    margin: 20px 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container .logo {
-    /* height: 50px; */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #A95C0C;
+    z-index: 1000;
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .container .logo a span{
@@ -86,7 +93,7 @@ section {
 .hero {
     display: flex;
     align-items: center;
-    margin: 80px;
+    margin: 140px 80px;
 }
 
 .hero-text {
