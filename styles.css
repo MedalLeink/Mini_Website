@@ -71,3 +71,16 @@ body {
     font-weight: 500;
 }
 
+.hero {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 200px; */
+}
+
+
+
+.hero-img img{
+    width: 150%;
+}
