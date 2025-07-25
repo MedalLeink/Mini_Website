@@ -39,6 +39,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+    object-fit: cover;
 }
 
 .logo a,
@@ -256,5 +257,6 @@ section {
 }
 
 .menu_details img {
-    width: 90%;
+    width: 80%;
 }
+
