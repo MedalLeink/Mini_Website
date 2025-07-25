@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Poppins:wght@300;400;500;600&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -67,21 +71,22 @@ body {
 }
 
 .nav_links a:hover {
-    /* border-bottom: 3px solid #ffa500; */
+    color: #000;
     background: linear-gradient(to right, #ffa500, #fbff01);
     border-radius: 99px;
-    padding: 6px;
-    font-size: 17px;
-    font-weight: 500;
+    padding: 8px;
+}
+
+section {
+    /* display: none;
+    height: 100vh;
+    padding: 100px 20px; */
 }
 
 .hero {
-    /* margin-top: 50px; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     margin: 80px;
-    /* gap: 150px; */
 }
 
 .hero-text {
@@ -123,7 +128,10 @@ body {
 }
 
 .btn .order:hover{
-    background: linear-gradient(to right, #ffa500, #ffd500);
+    border: 2px solid #fff;
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
 }
 
 .btn .contact {
@@ -137,8 +145,10 @@ body {
 }
 
 .btn .contact:hover {
-    background: linear-gradient(to right, #ffa500, #ffd500);
+    background: #fbff01;
     border: none;
+    box-shadow: 0px 2px 8px #ffd500;
+    color: #000;
 }
 
 .hero-img img{
