@@ -285,6 +285,13 @@ section {
     max-width: 300px;
 }
 
+.menu_details img:hover {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    max-width: 300px;
+}
+
 .menu_details_1 h4,
 .menu_details_1 p,
 .menu_details_1 img{
