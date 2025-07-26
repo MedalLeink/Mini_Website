@@ -339,6 +339,11 @@ section {
     display: grid;
     gap: 30px;
     grid-auto-rows: repeat (3, 1fr);
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 150px;
+    padding: 10px;
     /* margin: 80px; */
 }
 
@@ -351,8 +356,8 @@ section {
 }
 
 .testimonial_details img:hover {
-    width: 265px;
-    height: 265px;
+    width: 160px;
+    height: 160px;
     transition: all 0.5s linear;
 }
 
