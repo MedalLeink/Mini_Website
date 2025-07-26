@@ -347,6 +347,10 @@ section {
     /* margin: 80px; */
 }
 
+.testimonial_details::-webkit-scrollbar {
+    display: none;
+}
+
 .testimonial_details img {
     width: 150px;
     height: 150px;
@@ -367,6 +371,9 @@ section {
     color: #000;
     text-align: center;
     padding: 6px;
+    min-width: 250px;
+    flex-shrink: 0;
+    
 }
 
 .testimonial_details_1 h4 {
