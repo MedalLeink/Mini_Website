@@ -312,7 +312,7 @@ section {
 .testimonial_section {
     background: #fff;
     text-align: center;
-    padding: 120px 80px;
+    padding: 100px 80px;
 }
 
 .testimonial_section .underlined_testimonial {
@@ -336,15 +336,12 @@ section {
 }
 
 .testimonial_details {
-    display: grid;
-    gap: 30px;
-    grid-auto-rows: repeat (3, 1fr);
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
     gap: 150px;
     padding: 10px;
-    /* margin: 80px; */
+    margin-top: 80px;
 }
 
 .testimonial_details::-webkit-scrollbar {
@@ -352,7 +349,7 @@ section {
 }
 
 .testimonial_details img {
-    width: 150px;
+    width: 250px;
     height: 150px;
     object-fit: cover;
     max-width: 300px;
